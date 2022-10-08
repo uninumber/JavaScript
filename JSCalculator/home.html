@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body onload="calculations()">
+
+		<main class="calculator">
+
+			<h2>Calculator</h2>
+
+			<section class="container-calc">
+
+				<div class="campo-calc">
+					<input type="numer" name="calc" id="num1" class="calc">
+
+					<select name="operator" id="operator" class="operator">
+						<option value="addition"> + </option>
+						<option value="subtraction"> - </option>
+						<option value="multiplication"> * </option>
+						<option value="division"> / </option>
+					</select>
+
+					<input type="numer" name="calc" id="num2" class="calc">
+					<button class="calcular" id="calcular" onclick="calcular()">Calculate</button>
+				</div>
+
+				<div>
+					<div class="resultat" id="res"></div>
+				<button class="erase" onclick="erase()">erase</button>
+				</div>
+
+
+			</section>
+		</main>
+		<script src="calc.js"></script>
+	</body>
+</html>

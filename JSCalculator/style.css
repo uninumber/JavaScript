@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+
+}
+
+body {
+	background-color: #fff;
+	margin:auto;
+
+}
+
+.calculator {
+	background: #fff;
+	width: 600px;
+	border-radius: 5px;
+	margin:40px auto;
+	box-shadow: 0 3px 10px 3px  rgba(0, 0, 0, 174);
+}
+
+h2 {
+	background: #000;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	text-align: center;
+	padding:10px;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+.container-calc {
+	width: 550px;
+	height: 200px;
+	margin:auto;
+	padding:20px;
+}
+
+.campo-calc {
+	height: 80px;
+}
+
+.calc {
+	padding:3px;
+	width: 100px;
+	font-size: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align:center;
+}
+.operator {
+	margin-right: 10px;
+	border: 0;
+	font-size: 40px;
+	background:transparent;
+	widht: 20px;
+}
+
+.operator option {
+	background: #000;
+	color:#fff;
+	text-align:center;
+}
+
+.calcular, .erase {
+	float:right;
+	border-radius: 5px;
+	font-size: 25px;
+	padding: 5px 20px;
+	border: 2px solid black;
+	background: #fff;
+	color:#000;
+}
+
+.calcular:hover {
+	background: #000;
+	cursor: pointer;
+	color:#fff;
+}
+
+.erase:hover {
+	background-color:#000;
+	cursor:pointer;
+	color:#fff;
+}
+
+.erase {
+	width: 160px;
+	height:40px;
+	background-color: transparent;
+	color:#000;
+	border: 2px solid black;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+.calc, .operator {
+	float:left;
+}
+
+.resultat {
+	display:inline-block;
+	width: 300px;
+	height:70px;
+	padding: 10px;
+	border: 3px solid black;
+	font-size: 46px;
+	font-weight: 800;
+	text-align:center;
+	border-radius: 5px;
+	background-color:#fff;
+	color:#000;
+}
+
