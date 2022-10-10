@@ -10,6 +10,9 @@ function calcular() {
 
 	let total = 0;
 
+	if (typeof num1 == 'string' && typeof num2 == 'string') {
+		return alert("You entered string.type, enter numbers:");
+	}
 
 	if (num1.length < 1 || num2.length < 1) {
 		return alert('Please enter number.')
