@@ -1,9 +1,3 @@
-
-<!DOCTYPE html>
-<html>
-	<head>
-
-<script>
 function checkData() {
 	if (document.form1.threeChar.value.length === 3) {
 		return true;
@@ -13,9 +7,4 @@ function checkData() {
 		return false;
 	}
 }
-</script>
-	</head>
-	<body>
-	</body>
-</html>
 
