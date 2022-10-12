@@ -5,10 +5,10 @@ const createPet = function(name) {
 			name = newName;
 		},
 
-		getName = {
+		getName() { 
 			return name;
 		},
-		getSex() = {
+		getSex() {
 			return sex;
 		},
 
@@ -24,9 +24,7 @@ const createPet = function(name) {
 }
 
 const pet = createPet('Mimikatzy');
-pet.getName();
 pet.setName("Nmappy");
-pet.setSex("female");
 pet.getName();
+pet.setSex("female");
 pet.getSex();
-
